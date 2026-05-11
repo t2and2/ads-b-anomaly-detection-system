@@ -1,4 +1,4 @@
-# Enhanced ADS-B Security Monitoring Prototype
+# ADS-B Aircraft Anomaly Detection System
 
 This project implements an enhanced physics-based anomaly detection prototype for securing the Automatic Dependent Surveillance-Broadcast (ADS-B) system. It now features integration with live ADS-B data sources, advanced anomaly detection capabilities, and comprehensive cyber attack simulation with visualization of impacts on Air Traffic Control (ATC), pilots, and aircraft systems.
 
@@ -37,7 +37,7 @@ To run this project locally, follow these steps:
 1.  **Navigate to the project directory:**
 
     ```bash
-    cd adsb_security_prototype/adsb_security_prototype 2
+    cd adsb_security_prototype/adsb_security_prototype
     ```
 
 2.  **Create a Python virtual environment (recommended):**
@@ -80,7 +80,7 @@ To run this project locally, follow these steps:
 *   Normal aircraft are displayed in green, anomalous aircraft in red, and actively attacked aircraft in orange.
 *   Simulated alerts for ATC, pilots, and system impact will be displayed when an active attack is being simulated.
 
-### ML Mode (LSTM)
+### Machine Learning Detection (LSTM Sequence Model)
 
 *   Select **Detection Method → ML (LSTM Sequence Model)**.
 *   Click **Train / Retrain Model** (first time only).
@@ -98,3 +98,12 @@ This prototype includes the following simulated cyber attacks:
 ## Resources
 
 For a detailed list of data sources, research papers, and libraries used in this project, please refer to `resources.md`.
+## My Contributions
+
+- Backend data processing
+- ADS-B anomaly detection logic
+- OpenSky API integration
+- Streamlit dashboard integration
+- Cyber attack simulation support
+- Aircraft activity logging system
+- Real-time and simulated aircraft monitoring
